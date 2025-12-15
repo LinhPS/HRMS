@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <title>Timesheet</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/common.css">
+<body>
+  <div class="layout">
+    <div class="left-col">
+      <div class="wrapper">
+        <div class="feature first active"><img class="icon" src="icon/timesheet.svg"/></div>
+        <div class="feature"><img class="icon" src="icon/payslip.svg"/></div>
+        <div class="feature"><img class="icon" src="icon/profile.svg"/></div>
+        <div class="feature"><img class="icon" src="icon/search-profile.svg"/></div>
+        <div class="feature last"><img class="icon" src="icon/logout.svg"/></div>
+      </div>
+    </div>
+
+    <div class="main-col">
+      <div class="company">
+        <span class="name">Timind</span><img class="heart" src="icon/heart.svg"/>
+      </div>
+      <div class="content">
+        <div class="profile">
+          <div class="info">
+            <img class="picture" src="image/dao-thi-giang.png"/>
+            <span class="name">Đào Thị Giang</span>
+            <span class="splitter">•</span>
+            <span class="job">Chuyên viên Nhân sự</span>
+            <span class="splitter">•</span>
+            <span class="department">Phòng Nhân sự</span>
+          </div>
+          <div class="noti">
+            <img class="icon" src="icon/noti.svg"/>
+            <span class="count">3</span>
+          </div>
+        </div>
+
+        <div class="filter">
+          <div class="date">
+            <span class="value">Tháng 12, 2025</span>
+            <img class="arrow-down" src="icon/arrow-down.svg"/>
+          </div>
+          <div class="employee">
+            <img class="picture" src="image/dao-thi-giang.png"/>
+            <span class="name">Đào Thị Giang</span>
+            <img class="arrow-down" src="icon/arrow-down.svg"/>
+          </div>
+        </div>
+
+        <div class="calendar">
+          <div class="header">
+            <span class="day day-off">Chủ nhật</span>
+            <span class="day">Thứ 2</span>
+            <span class="day">Thứ 3</span>
+            <span class="day">Thứ 4</span>
+            <span class="day">Thứ 5</span>
+            <span class="day">Thứ 6</span>
+            <span class="day day-off">Thứ 7</span>
+          </div>
+
+          <div class="row">
+            <div class="cell date-off"><span class="date value">30</span><br/><span class="in value">-- --</span><br/><span class="out value">-- --</span></div>
+            <div class="cell"><span class="date value">1</span><img class="error" src="icon/error.svg"/><br/><span class="in error value">08:38</span><br/><span class="out value">18:01</span></div>
+            <div class="cell"><span class="date value">2</span><br/><span class="in value">08:15</span><br/><span class="out value">18:16</span></div>
+            <div class="cell"><span class="date value">3</span><img class="warning" src="icon/warning.svg"/><br/><span class="in warning value">08:39</span><br/><span class="out value">18:24</span></div>
+            <div class="cell"><span class="date value">4</span><br/><span class="in value">08:16</span><br/><span class="out value">18:03</span></div>
+            <div class="cell"><span class="date value">5</span><br/><span class="in value">08:23</span><br/><span class="out value">18:22</span></div>
+            <div class="cell date-off"><span class="date value">6</span><br/><span class="in value">-- --</span><br/><span class="out value">-- --</span></div>
+          </div>
+          <div class="row">
+            <div class="cell date-off"><span class="date value">7</span><br/><span class="in value">-- --</span><br/><span class="out value">-- --</span></div>
+            <div class="cell"><span class="date value">8</span><br/><span class="in value">08:10</span><br/><span class="out value">18:02</span></div>
+            <div class="cell"><span class="date value">9</span><img class="warning" src="icon/warning.svg"/><br/><span class="in warning value">08:54</span><br/><span class="out value">18:24</span></div>
+            <div class="cell"><span class="date value">10</span><br/><span class="in value">08:15</span><br/><span class="out value">18:16</span></div>
+            <div class="cell"><span class="date value">11</span><br/><span class="in value">08:23</span><br/><span class="out value">18:22</span></div>
+            <div class="cell"><span class="date value">12</span><img class="ok" src="icon/ok.svg"/><br/><span class="in value">08:14</span><br/><span class="out ok value">16:23</span></div>
+            <div class="cell date-off"><span class="date value">13</span><br/><span class="in value">-- --</span><br/><span class="out value">-- --</span></div>
+          </div>
+          <div class="row">
+            <div class="cell date-off"><span class="date value">14</span><br/><span class="in value">-- --</span><br/><span class="out value">-- --</span></div>
+            <div class="cell"><span class="date value">15</span><br/><span class="in value">08:10</span><br/><span class="out value">18:02</span></div>
+            <div class="cell"><span class="date value">16</span><br/><span class="in value">08:25</span><br/><span class="out value">18:16</span></div>
+            <div class="cell"><span class="date value">17</span><br/><span class="in value">08:15</span><br/><span class="out value">18:09</span></div>
+            <div class="cell"><span class="date value">18</span><br/><span class="in value">08:21</span><br/><span class="out value">18:04</span></div>
+            <div class="cell"><span class="date value">19</span><br/><span class="in value">08:23</span><br/><span class="out value">18:22</span></div>
+            <div class="cell date-off"><span class="date value">20</span><br/><span class="in value">-- --</span><br/><span class="out value">-- --</span></div>
+          </div>
+          <div class="row">
+            <div class="cell date-off"><span class="date value">21</span><br/><span class="in value">-- --</span><br/><span class="out value">-- --</span></div>
+            <div class="cell"><span class="date value">22</span><br/><span class="in value">08:10</span><br/><span class="out value">18:02</span></div>
+            <div class="cell"><span class="date value today">23</span><br/><span class="in value">08:25</span><br/><span class="out value">18:16</span></div>
+            <div class="cell"><span class="date value">24</span><br/><span class="in value">-- --</span><br/><span class="out value">-- --</span></div>
+            <div class="cell"><span class="date value">25</span><br/><span class="in value">-- --</span><br/><span class="out value">-- --</span></div>
+            <div class="cell"><span class="date value">26</span><br/><span class="in value">-- --</span><br/><span class="out value">-- --</span></div>
+            <div class="cell date-off"><span class="date value">27</span><br/><span class="in value">-- --</span><br/><span class="out value">-- --</span></div>
+          </div>
+          <div class="row">
+            <div class="cell date-off"><span class="date value">28</span><br/><span class="in value">-- --</span><br/><span class="out value">-- --</span></div>
+            <div class="cell"><span class="date value">29</span><br/><span class="in value">-- --</span><br/><span class="out value">-- --</span></div>
+            <div class="cell"><span class="date value">30</span><br/><span class="in value">-- --</span><br/><span class="out value">-- --</span></div>
+            <div class="cell"><span class="date value">31</span><br/><span class="in value">-- --</span><br/><span class="out value">-- --</span></div>
+            <div class="cell date-off"><span class="date value">1</span><br/><span class="in value">-- --</span><br/><span class="out value">-- --</span></div>
+            <div class="cell date-off"><span class="date value">2</span><br/><span class="in value">-- --</span><br/><span class="out value">-- --</span></div>
+            <div class="cell date-off"><span class="date value">3</span><br/><span class="in value">-- --</span><br/><span class="out value">-- --</span></div>
+          </div>
+          <div class="row last">
+            <div class="cell date-off"><span class="date value">4</span><br/><span class="in value">-- --</span><br/><span class="out value">-- --</span></div>
+            <div class="cell date-off"><span class="date value">5</span><br/><span class="in value">-- --</span><br/><span class="out value">-- --</span></div>
+            <div class="cell date-off"><span class="date value">6</span><br/><span class="in value">-- --</span><br/><span class="out value">-- --</span></div>
+            <div class="cell date-off"><span class="date value">7</span><br/><span class="in value">-- --</span><br/><span class="out value">-- --</span></div>
+            <div class="cell date-off"><span class="date value">8</span><br/><span class="in value">-- --</span><br/><span class="out value">-- --</span></div>
+            <div class="cell date-off"><span class="date value">9</span><br/><span class="in value">-- --</span><br/><span class="out value">-- --</span></div>
+            <div class="cell date-off"><span class="date value">10</span><br/><span class="in value">-- --</span><br/><span class="out value">-- --</span></div>
+          </div>
+        </div>
+
+        <div class="sum">
+          <div class="header"><span class="icon">∑</span></div>
+          <div class="row">
+            <span class="label">Công chuẩn trong tháng:</span><span class="value">23</span><span class="unit">(ngày)</span>
+            <span class="label">Nghỉ không lương:</span><span class="value error">2.6</span><span class="unit">(20 giờ 48 phút)</span>
+          </div>
+          <div class="row">
+            <span class="label">Công chuẩn hiện tại:</span><span class="value">17</span><span class="unit">(ngày)</span>
+            <span class="label">Nghỉ có lương chờ duyệt:</span><span class="value warning">1.6</span><span class="unit">(12 giờ 48 phút)</span>
+          </div>
+          <div class="row">
+            <span class="label">Công thực tế:</span><span class="value error">14.5</span><span class="unit">(ngày)</span>
+            <span class="label">Nghỉ có lương đã duyệt:</span><span class="value ok">4</span><span class="unit">(32 giờ 0 phút)</span>
+          </div>
+          <div class="row">
+            <span class="label">Công làm thêm giờ:</span><span class="value ok">1.5</span><span class="unit">(ngày)</span>
+            <span class="label">Nghỉ có lương còn lại:</span><span class="value">2</span><span class="unit">(16 giờ 0 phút)</span>
+          </div>
+          <div class="row last">
+            <span class="label"></span><span class="value"></span><span class="unit"></span>
+            <span class="label">Phạt đi muộn</span><span class="value error">150</span><span class="unit">(kVNĐ)</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="right-col">
+      <div class="wrapper">
+        <div class="action first"><img class="icon" src="icon/request.svg"/><span class="label">Tạo yêu cầu</span></div>
+        <div class="action"><img class="icon" src="icon/list.svg"/><span class="label">Danh sách yêu cầu</span></div>
+        <div class="action"><img class="icon" src="icon/review.svg"/><span class="label">Phê duyệt yêu cầu</span></div>
+        <div class="action"><img class="icon" src="icon/shift.svg"/><span class="label">Phân ca làm việc</span></div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
