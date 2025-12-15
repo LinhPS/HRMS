@@ -288,6 +288,14 @@ body {
   background-color: rgb(var(--color-black));
 }
 
+.main-col .content .calendar .row .cell.date-off.bottom-left {
+  border-radius: 0 0 0 20px;
+}
+
+.main-col .content .calendar .row .cell.date-off.bottom-right {
+  border-radius: 0 0 20px 0;
+}
+
 .main-col .content .calendar .row .cell img.error {
   position: absolute;
   margin-left: 15px;
