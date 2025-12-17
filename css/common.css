@@ -21,6 +21,24 @@ body {
   margin: 0;
 }
 
+.sun {
+  position: fixed;
+  top: -150px;
+  right: -250px;
+  z-index: -100;
+  width: 600px;
+  opacity: 0.5;
+}
+
+.mars {
+  position: fixed;
+  left: -200px;
+  bottom: -150px;
+  z-index: -100;
+  width: 600px;
+  opacity: 0.5;
+}
+
 .layout {
   display: grid;
   grid-template-columns: 1fr 900px 1fr;
